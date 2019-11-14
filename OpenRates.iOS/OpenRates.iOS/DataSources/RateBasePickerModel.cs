@@ -1,6 +1,6 @@
 using System;
 using System.Linq;
-using OpenRates.iOS.Model;
+using OpenRates.iOS.Shared.Model;
 using UIKit;
 
 namespace OpenRates.iOS.DataSources

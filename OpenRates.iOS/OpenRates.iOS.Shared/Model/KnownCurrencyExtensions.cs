@@ -1,6 +1,6 @@
 using System.Collections.Generic;
 
-namespace OpenRates.iOS.Model
+namespace OpenRates.iOS.Shared.Model
 {
     public static class KnownCurrencyExtensions
     {

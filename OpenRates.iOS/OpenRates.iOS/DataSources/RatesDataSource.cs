@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using Foundation;
 using OpenRates.Api;
-using OpenRates.iOS.Model;
+using OpenRates.iOS.Shared.Model;
 using OpenRates.iOS.Views;
 using UIKit;
 

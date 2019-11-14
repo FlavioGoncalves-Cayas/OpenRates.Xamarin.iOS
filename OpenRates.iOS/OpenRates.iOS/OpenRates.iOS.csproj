@@ -64,8 +64,6 @@
     <Compile Include="DataSources\RatesDataSource.cs" />
     <Compile Include="Main.cs" />
     <Compile Include="AppDelegate.cs" />
-    <Compile Include="Model\KnownCurrency.cs" />
-    <Compile Include="Model\KnownCurrencyExtensions.cs" />
     <Compile Include="UIComponents\PickerButton.cs" />
     <Compile Include="Utils\AppColors.cs" />
     <Compile Include="ViewControllers\MainController.cs" />
@@ -98,6 +96,10 @@
     <ProjectReference Include="..\OpenRates.Api\OpenRates.Api.csproj">
       <Project>{12f8221e-f1df-4372-94bf-a6becfda196f}</Project>
       <Name>OpenRates.Api</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\OpenRates.iOS.Shared\OpenRates.iOS.Shared.csproj">
+      <Project>{7ea6bba4-8007-41f5-9c1c-8009f7e414bb}</Project>
+      <Name>OpenRates.iOS.Shared</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />

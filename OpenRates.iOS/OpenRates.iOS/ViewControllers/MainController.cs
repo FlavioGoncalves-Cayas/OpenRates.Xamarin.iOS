@@ -3,7 +3,7 @@ using System.Threading.Tasks;
 using CoreGraphics;
 using OpenRates.Api;
 using OpenRates.iOS.DataSources;
-using OpenRates.iOS.Model;
+using OpenRates.iOS.Shared.Model;
 using OpenRates.iOS.UIComponents;
 using OpenRates.iOS.Utils;
 using UIKit;

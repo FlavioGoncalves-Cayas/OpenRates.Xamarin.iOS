@@ -1,4 +1,4 @@
-namespace OpenRates.iOS.Model
+namespace OpenRates.iOS.Shared.Model
 {
     public enum KnownCurrency
     {

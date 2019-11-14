@@ -4,6 +4,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenRates.iOS", "OpenRates.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenRates.Api", "OpenRates.Api\OpenRates.Api.csproj", "{12F8221E-F1DF-4372-94BF-A6BECFDA196F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenRates.iOS.Shared", "OpenRates.iOS.Shared\OpenRates.iOS.Shared.csproj", "{7EA6BBA4-8007-41F5-9C1C-8009F7E414BB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|iPhone = Debug|iPhone
@@ -32,5 +34,13 @@ Global
 		{12F8221E-F1DF-4372-94BF-A6BECFDA196F}.Release|iPhone.Build.0 = Release|Any CPU
 		{12F8221E-F1DF-4372-94BF-A6BECFDA196F}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
 		{12F8221E-F1DF-4372-94BF-A6BECFDA196F}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
+		{7EA6BBA4-8007-41F5-9C1C-8009F7E414BB}.Debug|iPhone.ActiveCfg = Debug|Any CPU
+		{7EA6BBA4-8007-41F5-9C1C-8009F7E414BB}.Debug|iPhone.Build.0 = Debug|Any CPU
+		{7EA6BBA4-8007-41F5-9C1C-8009F7E414BB}.Debug|iPhoneSimulator.ActiveCfg = Debug|Any CPU
+		{7EA6BBA4-8007-41F5-9C1C-8009F7E414BB}.Debug|iPhoneSimulator.Build.0 = Debug|Any CPU
+		{7EA6BBA4-8007-41F5-9C1C-8009F7E414BB}.Release|iPhone.ActiveCfg = Release|Any CPU
+		{7EA6BBA4-8007-41F5-9C1C-8009F7E414BB}.Release|iPhone.Build.0 = Release|Any CPU
+		{7EA6BBA4-8007-41F5-9C1C-8009F7E414BB}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
+		{7EA6BBA4-8007-41F5-9C1C-8009F7E414BB}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

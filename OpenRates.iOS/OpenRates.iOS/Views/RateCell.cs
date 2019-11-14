@@ -1,5 +1,5 @@
 using System;
-using OpenRates.iOS.Model;
+using OpenRates.iOS.Shared.Model;
 using UIKit;
 
 namespace OpenRates.iOS.Views
