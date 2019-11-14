@@ -95,10 +95,6 @@
     <Folder Include="Resources\" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\ClassLibrary1\ClassLibrary1.csproj">
-      <Project>{8c9ebbfd-f1e5-423e-a803-15d5240f5a09}</Project>
-      <Name>ClassLibrary1</Name>
-    </ProjectReference>
     <ProjectReference Include="..\OpenRates.Api\OpenRates.Api.csproj">
       <Project>{12f8221e-f1df-4372-94bf-a6becfda196f}</Project>
       <Name>OpenRates.Api</Name>
