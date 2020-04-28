@@ -8,7 +8,7 @@ namespace OpenRates.iOS.Siri
 	// @interface CurrencyResolutionResult : INEnumResolutionResult
 	[Watch (6,0), NoTV, NoMac, iOS (13,0)]
 	[BaseType (typeof(INEnumResolutionResult))]
-	interface CurrencyResolutionResult
+	public interface CurrencyResolutionResult
 	{
 		// +(instancetype _Nonnull)successWithResolvedCurrency:(Currency)resolvedValue;
 		[Static]
@@ -24,7 +24,7 @@ namespace OpenRates.iOS.Siri
 	// @interface ConvertAmountToCurrencyIntent : INIntent
 	[Watch (5,0), NoTV, NoMac, iOS (12,0)]
 	[BaseType (typeof(INIntent))]
-	interface ConvertAmountToCurrencyIntent
+	public interface ConvertAmountToCurrencyIntent
 	{
 		// @property (readwrite, copy, nonatomic) INCurrencyAmount * _Nullable amount;
 		[NullAllowed, Export ("amount", ArgumentSemantic.Copy)]
@@ -39,7 +39,7 @@ namespace OpenRates.iOS.Siri
 	[Watch (5,0), NoTV, NoMac, iOS (12,0)]
 	[Protocol, Model]
 	[BaseType (typeof(NSObject))]
-	interface ConvertAmountToCurrencyIntentHandling
+	public interface ConvertAmountToCurrencyIntentHandling
 	{
 		// @required -(void)handleConvertAmountToCurrency:(ConvertAmountToCurrencyIntent * _Nonnull)intent completion:(void (^ _Nonnull)(ConvertAmountToCurrencyIntentResponse * _Nonnull))completion;
 		[Abstract]
@@ -67,7 +67,7 @@ namespace OpenRates.iOS.Siri
 	[Watch (5,0), NoTV, NoMac, iOS (12,0)]
 	[BaseType (typeof(INIntentResponse))]
 	[DisableDefaultCtor]
-	interface ConvertAmountToCurrencyIntentResponse
+	public interface ConvertAmountToCurrencyIntentResponse
 	{
 		// -(instancetype _Nonnull)initWithCode:(ConvertAmountToCurrencyIntentResponseCode)code userActivity:(NSUserActivity * _Nullable)userActivity __attribute__((objc_designated_initializer));
 		[Export ("initWithCode:userActivity:")]
@@ -95,7 +95,7 @@ namespace OpenRates.iOS.Siri
 	// @interface ConvertAmountToCurrencyAmountResolutionResult : INCurrencyAmountResolutionResult
 	[Watch (6,0), iOS (13,0)]
 	[BaseType (typeof(INCurrencyAmountResolutionResult))]
-	interface ConvertAmountToCurrencyAmountResolutionResult
+	public interface ConvertAmountToCurrencyAmountResolutionResult
 	{
 		// +(instancetype _Nonnull)unsupportedForReason:(ConvertAmountToCurrencyAmountUnsupportedReason)reason;
 		[Static]
@@ -106,7 +106,7 @@ namespace OpenRates.iOS.Siri
 	// @interface ConvertAmountToCurrencyTargetCurrencyResolutionResult : CurrencyResolutionResult
 	[Watch (6,0), iOS (13,0)]
 	[BaseType (typeof(CurrencyResolutionResult))]
-	interface ConvertAmountToCurrencyTargetCurrencyResolutionResult
+	public interface ConvertAmountToCurrencyTargetCurrencyResolutionResult
 	{
 		// +(instancetype _Nonnull)unsupportedForReason:(ConvertAmountToCurrencyTargetCurrencyUnsupportedReason)reason;
 		[Static]
@@ -117,7 +117,7 @@ namespace OpenRates.iOS.Siri
 	// @interface GetConversionRateIntent : INIntent
 	[Watch (5,0), NoTV, NoMac, iOS (12,0)]
 	[BaseType (typeof(INIntent))]
-	interface GetConversionRateIntent
+	public interface GetConversionRateIntent
 	{
 		// @property (assign, readwrite, nonatomic) Currency baseCurrency;
 		[Export ("baseCurrency", ArgumentSemantic.Assign)]
@@ -132,7 +132,7 @@ namespace OpenRates.iOS.Siri
 	[Watch (5,0), NoTV, NoMac, iOS (12,0)]
 	[Protocol, Model]
 	[BaseType (typeof(NSObject))]
-	interface GetConversionRateIntentHandling
+	public interface GetConversionRateIntentHandling
 	{
 		// @required -(void)handleGetConversionRate:(GetConversionRateIntent * _Nonnull)intent completion:(void (^ _Nonnull)(GetConversionRateIntentResponse * _Nonnull))completion;
 		[Abstract]
@@ -160,7 +160,7 @@ namespace OpenRates.iOS.Siri
 	[Watch (5,0), NoTV, NoMac, iOS (12,0)]
 	[BaseType (typeof(INIntentResponse))]
 	[DisableDefaultCtor]
-	interface GetConversionRateIntentResponse
+	public interface GetConversionRateIntentResponse
 	{
 		// -(instancetype _Nonnull)initWithCode:(GetConversionRateIntentResponseCode)code userActivity:(NSUserActivity * _Nullable)userActivity __attribute__((objc_designated_initializer));
 		[Export ("initWithCode:userActivity:")]
@@ -192,7 +192,7 @@ namespace OpenRates.iOS.Siri
 	// @interface GetConversionRateBaseCurrencyResolutionResult : CurrencyResolutionResult
 	[Watch (6,0), iOS (13,0)]
 	[BaseType (typeof(CurrencyResolutionResult))]
-	interface GetConversionRateBaseCurrencyResolutionResult
+	public interface GetConversionRateBaseCurrencyResolutionResult
 	{
 		// +(instancetype _Nonnull)unsupportedForReason:(GetConversionRateBaseCurrencyUnsupportedReason)reason;
 		[Static]
@@ -203,7 +203,7 @@ namespace OpenRates.iOS.Siri
 	// @interface GetConversionRateTargetCurrencyResolutionResult : CurrencyResolutionResult
 	[Watch (6,0), iOS (13,0)]
 	[BaseType (typeof(CurrencyResolutionResult))]
-	interface GetConversionRateTargetCurrencyResolutionResult
+	public interface GetConversionRateTargetCurrencyResolutionResult
 	{
 		// +(instancetype _Nonnull)unsupportedForReason:(GetConversionRateTargetCurrencyUnsupportedReason)reason;
 		[Static]
