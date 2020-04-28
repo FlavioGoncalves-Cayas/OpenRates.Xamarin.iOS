@@ -51,12 +51,54 @@
     return [super unsupportedWithReason:reason];
 }
 
++ (instancetype)successWithResolvedCurrency:(Currency)resolvedValue {
+    return [super successWithResolvedCurrency:resolvedValue];
+}
+
++ (instancetype)confirmationRequiredWithCurrencyToConfirm:(Currency)valueToConfirm {
+    return [super confirmationRequiredWithCurrencyToConfirm:valueToConfirm];
+}
+
++ (instancetype)needsValue {
+    return [super needsValue];
+}
+
++ (instancetype)notRequired {
+    return [super notRequired];
+}
+
+
++ (instancetype)unsupported {
+    return [super unsupported];
+}
+
 @end
 
 @implementation GetConversionRateTargetCurrencyResolutionResult
 
 + (instancetype)unsupportedForReason:(GetConversionRateTargetCurrencyUnsupportedReason)reason {
     return [super unsupportedWithReason:reason];
+}
+
++ (instancetype)successWithResolvedCurrency:(Currency)resolvedValue {
+    return [super successWithResolvedCurrency:resolvedValue];
+}
+
++ (instancetype)confirmationRequiredWithCurrencyToConfirm:(Currency)valueToConfirm {
+    return [super confirmationRequiredWithCurrencyToConfirm:valueToConfirm];
+}
+
++ (instancetype)needsValue {
+    return [super needsValue];
+}
+
++ (instancetype)notRequired {
+    return [super notRequired];
+}
+
+
++ (instancetype)unsupported {
+    return [super unsupported];
 }
 
 @end

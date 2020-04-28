@@ -50,12 +50,56 @@
     return [super unsupportedWithReason:reason];
 }
 
++ (instancetype)successWithResolvedCurrencyAmount:(INCurrencyAmount *)resolvedCurrencyAmount {
+    return [super successWithResolvedCurrencyAmount:resolvedCurrencyAmount];
+}
+
++ (instancetype)disambiguationWithCurrencyAmountsToDisambiguate:(NSArray<INCurrencyAmount *> *)currencyAmountsToDisambiguate {
+    return [super disambiguationWithCurrencyAmountsToDisambiguate:currencyAmountsToDisambiguate];
+}
+
++ (instancetype)confirmationRequiredWithCurrencyAmountToConfirm:(nullable INCurrencyAmount *)currencyAmountToConfirm {
+    return [super confirmationRequiredWithCurrencyAmountToConfirm:currencyAmountToConfirm];
+}
+
++ (instancetype)needsValue {
+    return [super needsValue];
+}
+
++ (instancetype)notRequired {
+    return [super notRequired];
+}
+
++ (instancetype)unsupported {
+    return [super unsupported];
+}
+
 @end
 
 @implementation ConvertAmountToCurrencyTargetCurrencyResolutionResult
 
 + (instancetype)unsupportedForReason:(ConvertAmountToCurrencyTargetCurrencyUnsupportedReason)reason {
     return [super unsupportedWithReason:reason];
+}
+
++ (instancetype)successWithResolvedCurrency:(Currency)resolvedValue {
+    return [super successWithResolvedCurrency:resolvedValue];
+}
+
++ (instancetype)confirmationRequiredWithCurrencyToConfirm:(Currency)valueToConfirm {
+    return [super confirmationRequiredWithCurrencyToConfirm:valueToConfirm];
+}
+
++ (instancetype)needsValue {
+    return [super needsValue];
+}
+
++ (instancetype)notRequired {
+    return [super notRequired];
+}
+
++ (instancetype)unsupported {
+    return [super unsupported];
 }
 
 @end

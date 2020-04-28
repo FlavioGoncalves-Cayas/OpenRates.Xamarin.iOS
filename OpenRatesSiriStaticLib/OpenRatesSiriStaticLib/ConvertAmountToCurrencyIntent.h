@@ -124,6 +124,18 @@ API_AVAILABLE(ios(13.0), watchos(6.0))
 
 + (instancetype)unsupportedForReason:(ConvertAmountToCurrencyAmountUnsupportedReason)reason;
 
++ (instancetype)successWithResolvedCurrencyAmount:(INCurrencyAmount *)resolvedCurrencyAmount NS_SWIFT_NAME(success(with:));
+
++ (instancetype)disambiguationWithCurrencyAmountsToDisambiguate:(NSArray<INCurrencyAmount *> *)currencyAmountsToDisambiguate NS_SWIFT_NAME(disambiguation(with:));
+
++ (instancetype)confirmationRequiredWithCurrencyAmountToConfirm:(nullable INCurrencyAmount *)currencyAmountToConfirm NS_SWIFT_NAME(confirmationRequired(with:));
+
++ (instancetype)needsValue NS_SWIFT_NAME(needsValue());
+
++ (instancetype)notRequired NS_SWIFT_NAME(notRequired());
+
++ (instancetype)unsupported NS_SWIFT_NAME(unsupported());
+
 @end
 
 typedef NS_ENUM(NSInteger, ConvertAmountToCurrencyTargetCurrencyUnsupportedReason) {
@@ -134,6 +146,16 @@ API_AVAILABLE(ios(13.0), watchos(6.0))
 @interface ConvertAmountToCurrencyTargetCurrencyResolutionResult : CurrencyResolutionResult
 
 + (instancetype)unsupportedForReason:(ConvertAmountToCurrencyTargetCurrencyUnsupportedReason)reason;
+
++ (instancetype)successWithResolvedCurrency:(Currency)resolvedValue NS_SWIFT_NAME(success(with:));
+
++ (instancetype)confirmationRequiredWithCurrencyToConfirm:(Currency)valueToConfirm NS_SWIFT_NAME(confirmationRequired(with:));
+
++ (instancetype)needsValue NS_SWIFT_NAME(needsValue());
+
++ (instancetype)notRequired NS_SWIFT_NAME(notRequired());
+
++ (instancetype)unsupported NS_SWIFT_NAME(unsupported());
 
 @end
 
