@@ -101,6 +101,11 @@
       <Project>{7ea6bba4-8007-41f5-9c1c-8009f7e414bb}</Project>
       <Name>OpenRates.iOS.Shared</Name>
     </ProjectReference>
+    <ProjectReference Include="..\OpenRates.iOS.SiriExtension\OpenRates.iOS.SiriExtension.csproj">
+      <IsAppExtension>true</IsAppExtension>
+      <Project>{A8D62B38-46AE-412F-B5B6-C0E137460234}</Project>
+      <Name>OpenRates.iOS.SiriExtension</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
 </Project>
