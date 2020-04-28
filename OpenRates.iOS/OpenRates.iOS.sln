@@ -1,10 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenRates.iOS", "OpenRates.iOS\OpenRates.iOS.csproj", "{E8F90A67-670D-4CA1-BF60-C28C5E96B99D}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenRates.Api", "OpenRates.Api\OpenRates.Api.csproj", "{12F8221E-F1DF-4372-94BF-A6BECFDA196F}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenRates.iOS.Shared", "OpenRates.iOS.Shared\OpenRates.iOS.Shared.csproj", "{7EA6BBA4-8007-41F5-9C1C-8009F7E414BB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenRates.iOS.SiriIntentsBinding", "OpenRates.iOS.SiriIntentsBinding\OpenRates.iOS.SiriIntentsBinding.csproj", "{EA24D951-A8E4-4F30-AB20-32AD21F8B2C3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -42,5 +45,13 @@ Global
 		{7EA6BBA4-8007-41F5-9C1C-8009F7E414BB}.Release|iPhone.Build.0 = Release|Any CPU
 		{7EA6BBA4-8007-41F5-9C1C-8009F7E414BB}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
 		{7EA6BBA4-8007-41F5-9C1C-8009F7E414BB}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
+		{EA24D951-A8E4-4F30-AB20-32AD21F8B2C3}.Debug|iPhone.ActiveCfg = Debug|Any CPU
+		{EA24D951-A8E4-4F30-AB20-32AD21F8B2C3}.Debug|iPhone.Build.0 = Debug|Any CPU
+		{EA24D951-A8E4-4F30-AB20-32AD21F8B2C3}.Debug|iPhoneSimulator.ActiveCfg = Debug|Any CPU
+		{EA24D951-A8E4-4F30-AB20-32AD21F8B2C3}.Debug|iPhoneSimulator.Build.0 = Debug|Any CPU
+		{EA24D951-A8E4-4F30-AB20-32AD21F8B2C3}.Release|iPhone.ActiveCfg = Release|Any CPU
+		{EA24D951-A8E4-4F30-AB20-32AD21F8B2C3}.Release|iPhone.Build.0 = Release|Any CPU
+		{EA24D951-A8E4-4F30-AB20-32AD21F8B2C3}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
+		{EA24D951-A8E4-4F30-AB20-32AD21F8B2C3}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
