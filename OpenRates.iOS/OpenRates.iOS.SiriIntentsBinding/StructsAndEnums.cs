@@ -1,4 +1,3 @@
-using System;
 using ObjCRuntime;
 
 namespace OpenRates.iOS.Siri
