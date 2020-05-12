@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
@@ -6,8 +6,6 @@
 	<string>OpenRates.iOS.SiriExtension</string>
 	<key>CFBundleName</key>
 	<string>OpenRates.iOS.SiriExtension</string>
-	<key>CFBundleIdentifier</key>
-	<string>de.cayas.openrates.OpenRates-iOS-SiriExtension</string>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
 	<key>CFBundleInfoDictionaryVersion</key>
@@ -19,7 +17,7 @@
 	<key>CFBundleVersion</key>
 	<string>1.0</string>
 	<key>MinimumOSVersion</key>
-	<string>13.4</string>
+	<string>13.0</string>
 	<key>NSExtension</key>
 	<dict>
 		<key>NSExtensionAttributes</key>
@@ -28,9 +26,8 @@
 			<array/>
 			<key>IntentsSupported</key>
 			<array>
-				<string>INSendMessageIntent</string>
-				<string>INSearchForMessagesIntent</string>
-				<string>INSetMessageAttributeIntent</string>
+				<string>GetConversionRateIntent</string>
+				<string>ConvertAmountToCurrencyIntent</string>
 			</array>
 		</dict>
 		<key>NSExtensionPointIdentifier</key>
@@ -38,5 +35,7 @@
 		<key>NSExtensionPrincipalClass</key>
 		<string>IntentHandler</string>
 	</dict>
+	<key>CFBundleIdentifier</key>
+	<string>de.cayas.openrates.siri</string>
 </dict>
 </plist>
