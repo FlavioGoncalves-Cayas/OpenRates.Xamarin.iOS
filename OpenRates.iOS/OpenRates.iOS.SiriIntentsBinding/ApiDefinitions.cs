@@ -45,7 +45,7 @@ namespace OpenRates.iOS.Siri
   protocol, then [Model] is redundant and will generate code that will never
   be used.
 */[Watch (5,0), NoTV, NoMac, iOS (12,0)]
-	[Protocol]
+	[Protocol, Model]
 	[BaseType (typeof(NSObject))]
 	interface ConvertAmountToCurrencyIntentHandling
 	{
@@ -201,7 +201,7 @@ namespace OpenRates.iOS.Siri
   protocol, then [Model] is redundant and will generate code that will never
   be used.
 */[Watch (5,0), NoTV, NoMac, iOS (12,0)]
-	[Protocol]
+	[Protocol, Model]
 	[BaseType (typeof(NSObject))]
 	interface GetConversionRateIntentHandling
 	{
