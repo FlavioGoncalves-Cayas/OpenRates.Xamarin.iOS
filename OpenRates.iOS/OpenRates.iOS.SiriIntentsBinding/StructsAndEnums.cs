@@ -5,7 +5,7 @@ namespace OpenRates.iOS.Siri
 {
 	[Watch (5,0), NoTV, NoMac, iOS (12,0)]
 	[Native]
-	public enum Currency : nint
+	public enum Currency : long
 	{
 		Unknown = 0,
 		Eur = 1,
@@ -20,7 +20,7 @@ namespace OpenRates.iOS.Siri
 
 	[Watch (5,0), NoTV, NoMac, iOS (12,0)]
 	[Native]
-	public enum ConvertAmountToCurrencyIntentResponseCode : nint
+	public enum ConvertAmountToCurrencyIntentResponseCode : long
 	{
 		Unspecified = 0,
 		Ready,
@@ -33,21 +33,21 @@ namespace OpenRates.iOS.Siri
 
 	[Watch (6,0), iOS (13,0)]
 	[Native]
-	public enum ConvertAmountToCurrencyBaseCurrencyUnsupportedReason : nint
+	public enum ConvertAmountToCurrencyBaseCurrencyUnsupportedReason : long
 	{
 		ConvertAmountToCurrencyBaseCurrencyUnsupportedReasonUndefinedBaseCurrency = 1
 	}
 
 	[Watch (6,0), iOS (13,0)]
 	[Native]
-	public enum ConvertAmountToCurrencyTargetCurrencyUnsupportedReason : nint
+	public enum ConvertAmountToCurrencyTargetCurrencyUnsupportedReason : long
 	{
 		ConvertAmountToCurrencyTargetCurrencyUnsupportedReasonUndefinedTargetCurrency = 1
 	}
 
 	[Watch (6,0), iOS (13,0)]
 	[Native]
-	public enum ConvertAmountToCurrencyAmountUnsupportedReason : nint
+	public enum ConvertAmountToCurrencyAmountUnsupportedReason : long
 	{
 		NegativeNumbersNotSupported = 1,
 		GreaterThanMaximumValue,
@@ -56,7 +56,7 @@ namespace OpenRates.iOS.Siri
 
 	[Watch (5,0), NoTV, NoMac, iOS (12,0)]
 	[Native]
-	public enum GetConversionRateIntentResponseCode : nint
+	public enum GetConversionRateIntentResponseCode : long
 	{
 		Unspecified = 0,
 		Ready,
@@ -69,14 +69,14 @@ namespace OpenRates.iOS.Siri
 
 	[Watch (6,0), iOS (13,0)]
 	[Native]
-	public enum GetConversionRateBaseCurrencyUnsupportedReason : nint
+	public enum GetConversionRateBaseCurrencyUnsupportedReason : long
 	{
 		GetConversionRateBaseCurrencyUnsupportedReasonUndefinedBaseCurrency = 1
 	}
 
 	[Watch (6,0), iOS (13,0)]
 	[Native]
-	public enum GetConversionRateTargetCurrencyUnsupportedReason : nint
+	public enum GetConversionRateTargetCurrencyUnsupportedReason : long
 	{
 		GetConversionRateTargetCurrencyUnsupportedReasonUndefinedTargetCurrency = 1
 	}
