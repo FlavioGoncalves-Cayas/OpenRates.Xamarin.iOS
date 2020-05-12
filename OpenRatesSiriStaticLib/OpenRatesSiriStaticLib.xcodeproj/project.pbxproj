@@ -1,0 +1,315 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		96878E32246AC9AE00CCB7F6 /* GetConversionRateIntent.m in Sources */ = {isa = PBXBuildFile; fileRef = 96878E2C246AC9AE00CCB7F6 /* GetConversionRateIntent.m */; };
+		96878E33246AC9AE00CCB7F6 /* ConvertAmountToCurrencyIntent.m in Sources */ = {isa = PBXBuildFile; fileRef = 96878E2D246AC9AE00CCB7F6 /* ConvertAmountToCurrencyIntent.m */; };
+		96878E34246AC9AE00CCB7F6 /* Currency.m in Sources */ = {isa = PBXBuildFile; fileRef = 96878E30246AC9AE00CCB7F6 /* Currency.m */; };
+		96878E37246ACD8F00CCB7F6 /* Intents.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96878E36246ACD8F00CCB7F6 /* Intents.framework */; };
+		96878E39246ACD9700CCB7F6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96878E38246ACD9700CCB7F6 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		96878E1E246AC91F00CCB7F6 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		96878E20246AC91F00CCB7F6 /* libOpenRatesSiriStaticLib.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libOpenRatesSiriStaticLib.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		96878E2C246AC9AE00CCB7F6 /* GetConversionRateIntent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GetConversionRateIntent.m; sourceTree = "<group>"; };
+		96878E2D246AC9AE00CCB7F6 /* ConvertAmountToCurrencyIntent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConvertAmountToCurrencyIntent.m; sourceTree = "<group>"; };
+		96878E2E246AC9AE00CCB7F6 /* ConvertAmountToCurrencyIntent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConvertAmountToCurrencyIntent.h; sourceTree = "<group>"; };
+		96878E2F246AC9AE00CCB7F6 /* Currency.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Currency.h; sourceTree = "<group>"; };
+		96878E30246AC9AE00CCB7F6 /* Currency.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Currency.m; sourceTree = "<group>"; };
+		96878E31246AC9AE00CCB7F6 /* GetConversionRateIntent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GetConversionRateIntent.h; sourceTree = "<group>"; };
+		96878E36246ACD8F00CCB7F6 /* Intents.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Intents.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Intents.framework; sourceTree = DEVELOPER_DIR; };
+		96878E38246ACD9700CCB7F6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		96878E1D246AC91F00CCB7F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96878E39246ACD9700CCB7F6 /* Foundation.framework in Frameworks */,
+				96878E37246ACD8F00CCB7F6 /* Intents.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		96878E17246AC91F00CCB7F6 = {
+			isa = PBXGroup;
+			children = (
+				96878E22246AC91F00CCB7F6 /* OpenRatesSiriStaticLib */,
+				96878E21246AC91F00CCB7F6 /* Products */,
+				96878E35246ACD8F00CCB7F6 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		96878E21246AC91F00CCB7F6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				96878E20246AC91F00CCB7F6 /* libOpenRatesSiriStaticLib.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		96878E22246AC91F00CCB7F6 /* OpenRatesSiriStaticLib */ = {
+			isa = PBXGroup;
+			children = (
+				96878E2E246AC9AE00CCB7F6 /* ConvertAmountToCurrencyIntent.h */,
+				96878E2D246AC9AE00CCB7F6 /* ConvertAmountToCurrencyIntent.m */,
+				96878E2F246AC9AE00CCB7F6 /* Currency.h */,
+				96878E30246AC9AE00CCB7F6 /* Currency.m */,
+				96878E31246AC9AE00CCB7F6 /* GetConversionRateIntent.h */,
+				96878E2C246AC9AE00CCB7F6 /* GetConversionRateIntent.m */,
+			);
+			path = OpenRatesSiriStaticLib;
+			sourceTree = "<group>";
+		};
+		96878E35246ACD8F00CCB7F6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				96878E38246ACD9700CCB7F6 /* Foundation.framework */,
+				96878E36246ACD8F00CCB7F6 /* Intents.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		96878E1F246AC91F00CCB7F6 /* OpenRatesSiriStaticLib */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 96878E29246AC91F00CCB7F6 /* Build configuration list for PBXNativeTarget "OpenRatesSiriStaticLib" */;
+			buildPhases = (
+				96878E1C246AC91F00CCB7F6 /* Sources */,
+				96878E1D246AC91F00CCB7F6 /* Frameworks */,
+				96878E1E246AC91F00CCB7F6 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OpenRatesSiriStaticLib;
+			productName = OpenRatesSiriStaticLib;
+			productReference = 96878E20246AC91F00CCB7F6 /* libOpenRatesSiriStaticLib.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		96878E18246AC91F00CCB7F6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = "Cayas Software GmbH";
+				TargetAttributes = {
+					96878E1F246AC91F00CCB7F6 = {
+						CreatedOnToolsVersion = 11.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 96878E1B246AC91F00CCB7F6 /* Build configuration list for PBXProject "OpenRatesSiriStaticLib" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 96878E17246AC91F00CCB7F6;
+			productRefGroup = 96878E21246AC91F00CCB7F6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				96878E1F246AC91F00CCB7F6 /* OpenRatesSiriStaticLib */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		96878E1C246AC91F00CCB7F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96878E34246AC9AE00CCB7F6 /* Currency.m in Sources */,
+				96878E33246AC9AE00CCB7F6 /* ConvertAmountToCurrencyIntent.m in Sources */,
+				96878E32246AC9AE00CCB7F6 /* GetConversionRateIntent.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		96878E27246AC91F00CCB7F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		96878E28246AC91F00CCB7F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		96878E2A246AC91F00CCB7F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		96878E2B246AC91F00CCB7F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		96878E1B246AC91F00CCB7F6 /* Build configuration list for PBXProject "OpenRatesSiriStaticLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96878E27246AC91F00CCB7F6 /* Debug */,
+				96878E28246AC91F00CCB7F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		96878E29246AC91F00CCB7F6 /* Build configuration list for PBXNativeTarget "OpenRatesSiriStaticLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96878E2A246AC91F00CCB7F6 /* Debug */,
+				96878E2B246AC91F00CCB7F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 96878E18246AC91F00CCB7F6 /* Project object */;
+}

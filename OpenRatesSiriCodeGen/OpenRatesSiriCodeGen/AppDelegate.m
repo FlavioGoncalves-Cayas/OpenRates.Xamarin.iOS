@@ -7,6 +7,8 @@
 //
 
 #import "AppDelegate.h"
+#import "GetConversionRateIntent.h"
+#import "ConvertAmountToCurrencyIntent.h"
 
 @interface AppDelegate ()
 
