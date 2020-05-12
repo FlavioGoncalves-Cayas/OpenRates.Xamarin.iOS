@@ -106,6 +106,10 @@
       <Project>{0DE9331D-2F1C-4E60-90C4-E09A4ED2DD1A}</Project>
       <Name>OpenRates.iOS.SiriExtension</Name>
     </ProjectReference>
+    <ProjectReference Include="..\OpenRates.iOS.SiriIntentsBinding\OpenRates.iOS.SiriIntentsBinding.csproj">
+      <Project>{9B0B8742-B172-4C25-8AC2-FAEB7F7BB342}</Project>
+      <Name>OpenRates.iOS.SiriIntentsBinding</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
 </Project>
