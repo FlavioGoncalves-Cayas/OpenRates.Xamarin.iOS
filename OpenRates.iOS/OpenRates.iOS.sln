@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenRates.iOS.Shared", "Ope
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenRates.iOS.SiriIntentsBinding", "OpenRates.iOS.SiriIntentsBinding\OpenRates.iOS.SiriIntentsBinding.csproj", "{9B0B8742-B172-4C25-8AC2-FAEB7F7BB342}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenRates.iOS.SiriExtension", "OpenRates.iOS.SiriExtension\OpenRates.iOS.SiriExtension.csproj", "{0DE9331D-2F1C-4E60-90C4-E09A4ED2DD1A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|iPhone = Debug|iPhone
@@ -53,5 +55,13 @@ Global
 		{9B0B8742-B172-4C25-8AC2-FAEB7F7BB342}.Release|iPhone.Build.0 = Release|Any CPU
 		{9B0B8742-B172-4C25-8AC2-FAEB7F7BB342}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
 		{9B0B8742-B172-4C25-8AC2-FAEB7F7BB342}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
+		{0DE9331D-2F1C-4E60-90C4-E09A4ED2DD1A}.Debug|iPhone.ActiveCfg = Debug|iPhone
+		{0DE9331D-2F1C-4E60-90C4-E09A4ED2DD1A}.Debug|iPhone.Build.0 = Debug|iPhone
+		{0DE9331D-2F1C-4E60-90C4-E09A4ED2DD1A}.Debug|iPhoneSimulator.ActiveCfg = Debug|iPhoneSimulator
+		{0DE9331D-2F1C-4E60-90C4-E09A4ED2DD1A}.Debug|iPhoneSimulator.Build.0 = Debug|iPhoneSimulator
+		{0DE9331D-2F1C-4E60-90C4-E09A4ED2DD1A}.Release|iPhone.ActiveCfg = Release|iPhone
+		{0DE9331D-2F1C-4E60-90C4-E09A4ED2DD1A}.Release|iPhone.Build.0 = Release|iPhone
+		{0DE9331D-2F1C-4E60-90C4-E09A4ED2DD1A}.Release|iPhoneSimulator.ActiveCfg = Release|iPhoneSimulator
+		{0DE9331D-2F1C-4E60-90C4-E09A4ED2DD1A}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
 	EndGlobalSection
 EndGlobal
