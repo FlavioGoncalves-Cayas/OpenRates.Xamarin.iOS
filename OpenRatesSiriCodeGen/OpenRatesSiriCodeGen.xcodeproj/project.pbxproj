@@ -14,6 +14,7 @@
 		96878E09246ABD5B00CCB7F6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96878E08246ABD5B00CCB7F6 /* Assets.xcassets */; };
 		96878E0C246ABD5B00CCB7F6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96878E0A246ABD5B00CCB7F6 /* LaunchScreen.storyboard */; };
 		96878E0F246ABD5B00CCB7F6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 96878E0E246ABD5B00CCB7F6 /* main.m */; };
+		96878E16246ABFA400CCB7F6 /* Intents.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 96878E15246ABFA400CCB7F6 /* Intents.intentdefinition */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		96878E0B246ABD5B00CCB7F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		96878E0D246ABD5B00CCB7F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		96878E0E246ABD5B00CCB7F6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		96878E15246ABFA400CCB7F6 /* Intents.intentdefinition */ = {isa = PBXFileReference; lastKnownFileType = file.intentdefinition; path = Intents.intentdefinition; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +74,7 @@
 				96878E0A246ABD5B00CCB7F6 /* LaunchScreen.storyboard */,
 				96878E0D246ABD5B00CCB7F6 /* Info.plist */,
 				96878E0E246ABD5B00CCB7F6 /* main.m */,
+				96878E15246ABFA400CCB7F6 /* Intents.intentdefinition */,
 			);
 			path = OpenRatesSiriCodeGen;
 			sourceTree = "<group>";
@@ -149,6 +152,7 @@
 				96878E04246ABD5A00CCB7F6 /* ViewController.m in Sources */,
 				96878DFE246ABD5A00CCB7F6 /* AppDelegate.m in Sources */,
 				96878E0F246ABD5B00CCB7F6 /* main.m in Sources */,
+				96878E16246ABFA400CCB7F6 /* Intents.intentdefinition in Sources */,
 				96878E01246ABD5A00CCB7F6 /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
