@@ -96,5 +96,15 @@
   <ItemGroup>
     <Compile Include="IntentHandler.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\OpenRates.iOS.SiriIntentsBinding\OpenRates.iOS.SiriIntentsBinding.csproj">
+      <Project>{9B0B8742-B172-4C25-8AC2-FAEB7F7BB342}</Project>
+      <Name>OpenRates.iOS.SiriIntentsBinding</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\OpenRates.iOS.Shared\OpenRates.iOS.Shared.csproj">
+      <Project>{7EA6BBA4-8007-41F5-9C1C-8009F7E414BB}</Project>
+      <Name>OpenRates.iOS.Shared</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.AppExtension.CSharp.targets" />
 </Project>
