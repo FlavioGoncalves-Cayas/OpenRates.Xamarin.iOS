@@ -36,6 +36,7 @@
 		96878E31246AC9AE00CCB7F6 /* GetConversionRateIntent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GetConversionRateIntent.h; sourceTree = "<group>"; };
 		96878E36246ACD8F00CCB7F6 /* Intents.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Intents.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Intents.framework; sourceTree = DEVELOPER_DIR; };
 		96878E38246ACD9700CCB7F6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		96878E3B246ACFA100CCB7F6 /* Intents.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Intents.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +78,7 @@
 				96878E30246AC9AE00CCB7F6 /* Currency.m */,
 				96878E31246AC9AE00CCB7F6 /* GetConversionRateIntent.h */,
 				96878E2C246AC9AE00CCB7F6 /* GetConversionRateIntent.m */,
+				96878E3B246ACFA100CCB7F6 /* Intents.h */,
 			);
 			path = OpenRatesSiriStaticLib;
 			sourceTree = "<group>";
