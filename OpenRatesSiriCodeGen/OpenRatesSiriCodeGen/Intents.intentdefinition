@@ -605,6 +605,10 @@
 				<dict>
 					<key>INIntentParameterCombinationSupportsBackgroundExecution</key>
 					<true/>
+					<key>INIntentParameterCombinationTitle</key>
+					<string>Convert ${amount}${baseCurrency} to ${targetCurrency}</string>
+					<key>INIntentParameterCombinationTitleID</key>
+					<string>u4EOVT</string>
 					<key>INIntentParameterCombinationUpdatesLinked</key>
 					<true/>
 				</dict>
@@ -615,10 +619,16 @@
 			<dict>
 				<key>baseCurrency,amount,targetCurrency</key>
 				<dict>
-					<key>INIntentParameterCombinationIsLinked</key>
-					<true/>
+					<key>INIntentParameterCombinationSubtitle</key>
+					<string>Converts ${amount}${baseCurrency} to ${targetCurrency}</string>
+					<key>INIntentParameterCombinationSubtitleID</key>
+					<string>ZY1tuv</string>
 					<key>INIntentParameterCombinationSupportsBackgroundExecution</key>
 					<true/>
+					<key>INIntentParameterCombinationTitle</key>
+					<string>Convert ${amount}${baseCurrency} to ${targetCurrency}</string>
+					<key>INIntentParameterCombinationTitleID</key>
+					<string>pc2eCl</string>
 				</dict>
 			</dict>
 			<key>INIntentParameters</key>
