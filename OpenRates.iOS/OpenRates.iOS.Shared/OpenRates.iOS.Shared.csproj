@@ -38,11 +38,24 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Resources\" />
+    <Folder Include="Siri\" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Model\KnownCurrency.cs" />
     <Compile Include="Model\KnownCurrencyExtensions.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Siri\GetConversionRateIntentHandler.cs" />
+    <Compile Include="Siri\ConvertAmountToCurrencyIntentHandler.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\OpenRates.iOS.SiriIntentsBinding\OpenRates.iOS.SiriIntentsBinding.csproj">
+      <Project>{9B0B8742-B172-4C25-8AC2-FAEB7F7BB342}</Project>
+      <Name>OpenRates.iOS.SiriIntentsBinding</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\OpenRates.Api\OpenRates.Api.csproj">
+      <Project>{12F8221E-F1DF-4372-94BF-A6BECFDA196F}</Project>
+      <Name>OpenRates.Api</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
 </Project>
